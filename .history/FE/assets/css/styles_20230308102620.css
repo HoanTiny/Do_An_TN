@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: var(--white-color);
+}
+
+header {
+    background-color: rgba(22, 22, 23, 0.8);
+}
+
+.form-control {
+    width: 400px;
+    border-radius: 8px;
+}
+
+.btn-search {
+    border-radius: 8px;
+}
+
+.navbar-brand--link a {
+    margin: 0 8px;
+}
+
+.header__menu a,
+.header__log a {
+    margin: 0 6px;
+    color: rgba(255, 255, 255, 0.8);
+
+    font-size: 1.8rem;
+}
+
+.header__menu a i {
+    font-size: 1.2rem;
+}
+
+.carousel-item img {
+    height: 90vh;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+}

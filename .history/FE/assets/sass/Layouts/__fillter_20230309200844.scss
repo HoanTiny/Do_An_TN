@@ -1,0 +1,22 @@
+.dropdown__filter {
+    display: flex;
+    // margin-top: 48px;
+    align-items: center;
+    // margin-bottom: 18px;
+
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.05);
+    p {
+        font-size: 1.2rem;
+        margin-right: 24px;
+    }
+}
+
+.dropdown__filter .dropdown {
+    margin: 0 8px;
+}
+
+.dropdown__filter .dropdown .btn,
+.dropdown-menu li a {
+    font-size: 1.4rem;
+}

@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.form-control {
+    width: 400px;
+    height: 40px;
+}
+
+.navbar-brand--link a {
+    margin: 0 8px;
+}

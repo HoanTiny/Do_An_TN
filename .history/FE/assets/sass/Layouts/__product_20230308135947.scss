@@ -1,0 +1,14 @@
+.products__bestseller--list {
+    .products__bestseller--list-item {
+        padding: 4px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        margin: 0 auto;
+        .p-3 {
+            img {
+                width: 100%;
+                height: 100px;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: $black-color;
+    .header__menu {
+        display: flex;
+        align-items: center;
+        .input-group {
+            width: 240px;
+            height: 40px;
+            border-radius: 12px;
+            input {
+                border-radius: 12px;
+            }
+        }
+        a {
+            margin: 0 12px;
+            color: $black-color;
+            font-size: 1.6rem;
+        }
+    }
+
+    .header__log {
+        a {
+            margin: 0 6px;
+            color: $black-color;
+            font-size: 1.8rem;
+        }
+    }
+}
+
+header {
+    background-color: $primary-color;
+}

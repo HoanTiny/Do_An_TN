@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 
+.navbar {
+    height: 60px;
+} */
+
+.form-control {
+    width: 400px;
+    /* height: 40px; */
+    border-radius: 8px;
+}
+
+.btn-search {
+    border-radius: 8px;
+}
+
+.navbar-brand--link a {
+    margin: 0 8px;
+}

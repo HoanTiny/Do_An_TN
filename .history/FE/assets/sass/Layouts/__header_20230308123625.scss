@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: var(--white-color);
+    .header__menu {
+        a {
+            margin: 0 6px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 1.8rem;
+        }
+    }
+}
+
+header {
+    background-color: rgba(22, 22, 23, 0.8);
+}

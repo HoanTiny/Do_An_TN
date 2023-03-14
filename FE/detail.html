@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/base.css" />
+        <link rel="stylesheet" href="./assets/css/variables.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header">
+                    <div class="header__logo">
+                        <h1>HTLaptop</h1>
+                    </div>
+                    <div class="header__menu">
+                        <div><a href="./index.html">Trang chủ</a></div>
+                        <div><a href="#">Khuyễn mãi</a></div>
+                        <div><a href="#">Giới thiệu</a></div>
+                        <div><a href="./product.html">Sản phẩm</a></div>
+                        <div class="input-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Tìm kiếm"
+                                aria-label="Recipient's username"
+                                aria-describedby="button-addon2"
+                            />
+                            <button
+                                class="btn btn-outline-secondary"
+                                type="button"
+                                id="button-addon2"
+                            >
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header__log">
+                        <a href="" class="login"
+                            ><i class="fa-solid fa-user"></i
+                        ></a>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mt-3">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Library</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        Data
+                    </li>
+                </ol>
+            </nav>
+            <div class="card-wrapper card-item">
+                <div class="card">
+                    <!-- card left -->
+                    <div class="product-imgs">
+                        <div class="img-display">
+                            <div class="img-showcase">
+                                <img
+                                    src="./assets/img/apple.jpg"
+                                    alt="shoe image"
+                                />
+                                <img
+                                    src="./assets/img/acer.kpg.png"
+                                    alt="shoe image"
+                                />
+                                <img
+                                    src="./assets/img/lap1.jpg"
+                                    alt="shoe image"
+                                />
+                                <img
+                                    src="./assets/img/lap2.jpg"
+                                    alt="shoe image"
+                                />
+                            </div>
+                        </div>
+                        <div class="img-select">
+                            <div class="img-item">
+                                <a href="#" data-id="1">
+                                    <img
+                                        src="./assets/img/apple.jpg"
+                                        alt="shoe image"
+                                    />
+                                </a>
+                            </div>
+                            <div class="img-item">
+                                <a href="#" data-id="2">
+                                    <img
+                                        src="./assets/img/apple.jpg"
+                                        alt="shoe image"
+                                    />
+                                </a>
+                            </div>
+                            <div class="img-item">
+                                <a href="#" data-id="3">
+                                    <img
+                                        src="./assets/img/apple.jpg"
+                                        alt="shoe image"
+                                    />
+                                </a>
+                            </div>
+                            <div class="img-item">
+                                <a href="#" data-id="4">
+                                    <img
+                                        src="./assets/img/apple.jpg"
+                                        alt="shoe image"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card right -->
+                    <div class="product-content">
+                        <h2 class="product-title">Macbook</h2>
+                        <a href="#" class="product-link">visit nike store</a>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.7(21)</span>
+                        </div>
+
+                        <div class="product-price">
+                            <p class="last-price">
+                                Old Price: <span>$257.00</span>
+                            </p>
+                            <p class="new-price">
+                                New Price: <span>$249.00 (5%)</span>
+                            </p>
+                        </div>
+
+                        <div class="product-detail">
+                            <h2>about this item:</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Illo eveniet veniam tempora
+                                fuga tenetur placeat sapiente architecto illum
+                                soluta consequuntur, aspernatur quidem at sequi
+                                ipsa!
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Consequatur, perferendis eius.
+                                Dignissimos, labore suscipit. Unde.
+                            </p>
+                        </div>
+
+                        <div class="product-color">
+                            <h4>Màu sắc</h4>
+                            <div class="color__option">
+                                <div class="color__option-item">
+                                    <a href="">
+                                        <span>Đỏ</span>
+                                        <strong>123$</strong>
+                                    </a>
+                                </div>
+                                <div class="color__option-item active">
+                                    <a href="">
+                                        <span>Xanh</span>
+                                        <strong>123$</strong>
+                                    </a>
+                                </div>
+                                <div class="color__option-item">
+                                    <a href="">
+                                        <span>Vàng</span>
+                                        <strong>123$</strong>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="purchase-info">
+                            <button type="button" class="btn">
+                                Add to Cart <i class="fas fa-shopping-cart"></i>
+                            </button>
+                            <button type="button" class="btn btn-buy">
+                                Mua ngay
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products__shared products-same">
+                <div class="product__shared-heading">
+                    <h3>Sản phẩm liên quan</h3>
+                    <a href="">Xem tất cả</a>
+                </div>
+                <div class="product__shared-list">
+                    <div class="row">
+                        <a class="l-2-4 p-2" href="">
+                            <div class="product__shared-list--item text-center">
+                                <img src="./assets/img/opp.jpg" alt="ảnh" />
+                                <h3 class="product__name">Máy tính Asus</h3>
+                                <div class="product__intro">
+                                    <span>8G</span>
+                                    <span>14 inchs</span>
+                                </div>
+                                <div class="product__prices">
+                                    <span class="product__price-sale"
+                                        >19.690.000&nbsp;₫
+                                    </span>
+                                    <span class="product__price-default"
+                                        >14.000.000 &nbsp;₫</span
+                                    >
+                                </div>
+
+                                <div class="product__favorites">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart active"></i>
+                                </div>
+                                <div class="sale">-33%</div>
+                            </div>
+                        </a>
+
+                        <a class="l-2-4 p-2" href="">
+                            <div class="product__shared-list--item text-center">
+                                <img src="./assets/img/opp.jpg" alt="ảnh" />
+                                <h3 class="product__name">Máy tính Asus</h3>
+                                <div class="product__intro">
+                                    <span>8G</span>
+                                    <span>14 inchs</span>
+                                </div>
+                                <div class="product__prices">
+                                    <span class="product__price-sale"
+                                        >19.690.000&nbsp;₫
+                                    </span>
+                                    <span class="product__price-default"
+                                        >14.000.000 &nbsp;₫</span
+                                    >
+                                </div>
+
+                                <div class="product__favorites">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart active"></i>
+                                </div>
+                                <div class="sale">-33%</div>
+                            </div>
+                        </a>
+
+                        <a class="l-2-4 p-2" href="">
+                            <div class="product__shared-list--item text-center">
+                                <img src="./assets/img/opp.jpg" alt="ảnh" />
+                                <h3 class="product__name">Máy tính Asus</h3>
+                                <div class="product__intro">
+                                    <span>8G</span>
+                                    <span>14 inchs</span>
+                                </div>
+                                <div class="product__prices">
+                                    <span class="product__price-sale"
+                                        >19.690.000&nbsp;₫
+                                    </span>
+                                    <span class="product__price-default"
+                                        >14.000.000 &nbsp;₫</span
+                                    >
+                                </div>
+
+                                <div class="product__favorites">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart active"></i>
+                                </div>
+                                <div class="sale">-33%</div>
+                            </div>
+                        </a>
+
+                        <a class="l-2-4 p-2" href="">
+                            <div class="product__shared-list--item text-center">
+                                <img src="./assets/img/opp.jpg" alt="ảnh" />
+                                <h3 class="product__name">Máy tính Asus</h3>
+                                <div class="product__intro">
+                                    <span>8G</span>
+                                    <span>14 inchs</span>
+                                </div>
+                                <div class="product__prices">
+                                    <span class="product__price-sale"
+                                        >19.690.000&nbsp;₫
+                                    </span>
+                                    <span class="product__price-default"
+                                        >14.000.000 &nbsp;₫</span
+                                    >
+                                </div>
+
+                                <div class="product__favorites">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart active"></i>
+                                </div>
+                                <div class="sale">-33%</div>
+                            </div>
+                        </a>
+
+                        <a class="l-2-4 p-2" href="">
+                            <div class="product__shared-list--item text-center">
+                                <img src="./assets/img/opp.jpg" alt="ảnh" />
+                                <h3 class="product__name">Máy tính Asus</h3>
+                                <div class="product__intro">
+                                    <span>8G</span>
+                                    <span>14 inchs</span>
+                                </div>
+                                <div class="product__prices">
+                                    <span class="product__price-sale"
+                                        >19.690.000&nbsp;₫
+                                    </span>
+                                    <span class="product__price-default"
+                                        >14.000.000 &nbsp;₫</span
+                                    >
+                                </div>
+
+                                <div class="product__favorites">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-heart active"></i>
+                                </div>
+                                <div class="sale">-33%</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container footer-mobile">
+                <div class="footer">
+                    <div class="row">
+                        <div class="l-2-4">
+                            <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link"
+                                        >Trung tâm trợ giúp</a
+                                    >
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link"
+                                        >Hoàn Tiny</a
+                                    >
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link"
+                                        >Hướng dẫn mua hàng</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="l-2-4">
+                            <h3 class="footer__heading">Giới thiệu</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link"
+                                        >Giới thiệu</a
+                                    >
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link"
+                                        >Danh mục</a
+                                    >
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link"
+                                        >Điều khoản</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="l-2-4">
+                            <h3 class="footer__heading">Danh mục</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link"
+                                        >S21 Ultra</a
+                                    >
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link"
+                                        >Iphone 11</a
+                                    >
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link"
+                                        >Vinsmart</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="l-2-4">
+                            <h3 class="footer__heading">Theo dõi</h3>
+                            <ul class="footer-list">
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i
+                                            class="footer-item__link-icon fab fa-facebook"
+                                        ></i>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i
+                                            class="footer-item__link-icon fab fa-instagram"
+                                        ></i>
+                                        Instagram
+                                    </a>
+                                </li>
+                                <li class="footer-item">
+                                    <a href="" class="footer-item__link">
+                                        <i
+                                            class="footer-item__link-icon fab fa-linkedin"
+                                        ></i>
+                                        Linkedin
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="l-2-4">
+                            <h3 class="footer__heading">Thanh toán miễn phí</h3>
+                            <div class="footer__pay">
+                                <img
+                                    src="./assets/img/visa.jgb.png"
+                                    alt="Pay"
+                                    class="footer__pay-img"
+                                />
+                                <img
+                                    src="./assets/img/Mastercard-.jpg"
+                                    alt="Pay"
+                                    class="footer__pay-img"
+                                /><img
+                                    src="./assets/img/vnpay.jpg"
+                                    alt="Pay"
+                                    class="footer__pay-img"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="grid wide">
+                    <p class="footer__text">
+                        @ 2021 - Bản quyền thuộc Hoàn Tiny
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const imgs = document.querySelectorAll(".img-select a");
+            const imgBtns = [...imgs];
+            let imgId = 1;
+
+            imgBtns.forEach((imgItem) => {
+                imgItem.addEventListener("click", (event) => {
+                    event.preventDefault();
+                    imgId = imgItem.dataset.id;
+                    slideImage();
+                });
+            });
+
+            function slideImage() {
+                const displayWidth = document.querySelector(
+                    ".img-showcase img:first-child"
+                ).clientWidth;
+
+                document.querySelector(
+                    ".img-showcase"
+                ).style.transform = `translateX(${
+                    -(imgId - 1) * displayWidth
+                }px)`;
+            }
+
+            window.addEventListener("resize", slideImage);
+        </script>
+    </body>
+</html>
